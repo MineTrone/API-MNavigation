@@ -11,6 +11,13 @@
 
     <name>API-MNavigation</name>
 
+    <distributionManagement>
+        <repository>
+            <id>minetrone-repository</id>
+            <url>https://repo.minetrone.com/releases</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>8</maven.compiler.source>
